@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"f195b346d1bf2968","type":"file","file":"01-roadmaps/marketing/meta-independencia-financiera-marketing.md","x":750,"y":440,"width":1400,"height":810},
+		{"id":"79e51ed0de28c6bd","type":"file","file":"01-roadmaps/marketing/fase-1-fundamentos-y-estrategia-marketing.md","x":-2320,"y":-540,"width":1120,"height":900},
+		{"id":"579361ae08ddb303","type":"file","file":"01-roadmaps/marketing/fase-3-redes-sociales-y-automatizacion-marketing.md","x":-40,"y":-540,"width":1030,"height":900},
+		{"id":"df195113ace42b7c","type":"file","file":"01-roadmaps/marketing/fase-4-marketing-para-technical-artist.md","x":1120,"y":-540,"width":1080,"height":900},
+		{"id":"13369bdd4505076d","type":"file","file":"01-roadmaps/marketing/fase-6-especializacion-e-ia-marketing.md","x":3520,"y":-540,"width":1270,"height":900},
+		{"id":"1fe48d5cac46b91d","type":"file","file":"01-roadmaps/marketing/fase-5-paid-media-y-analitics-marketing.md","x":2280,"y":-540,"width":1110,"height":900},
+		{"id":"38ddfe4b480b8699","type":"file","file":"01-roadmaps/marketing/fase-2-contenido-y-seo-marketing.md","x":-1080,"y":-540,"width":960,"height":900}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"79e51ed0de28c6bd","fromSide":"right","toNode":"38ddfe4b480b8699","toSide":"left"},
+		{"id":"e2","fromNode":"38ddfe4b480b8699","fromSide":"right","toNode":"579361ae08ddb303","toSide":"left"},
+		{"id":"e3","fromNode":"579361ae08ddb303","fromSide":"right","toNode":"df195113ace42b7c","toSide":"left"},
+		{"id":"e4","fromNode":"df195113ace42b7c","fromSide":"right","toNode":"1fe48d5cac46b91d","toSide":"left"},
+		{"id":"e5","fromNode":"1fe48d5cac46b91d","fromSide":"right","toNode":"13369bdd4505076d","toSide":"left"},
+		{"id":"e6","fromNode":"13369bdd4505076d","fromSide":"bottom","toNode":"f195b346d1bf2968","toSide":"right"},
+		{"id":"e7","fromNode":"79e51ed0de28c6bd","fromSide":"bottom","toNode":"f195b346d1bf2968","toSide":"left"}
+	]
+}

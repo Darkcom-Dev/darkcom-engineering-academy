@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"d2f8d1d5f4f77a92","type":"file","file":"01-roadmaps/prompt-engineering/introduccion-a-prompt-engineering.md","x":-374,"y":120,"width":1214,"height":560},
+		{"id":"69cf002a140c0f12","type":"file","file":"01-roadmaps/prompt-engineering/elementos-nucleo-llm-prompt-engineering.md","x":-374,"y":840,"width":1214,"height":540},
+		{"id":"03f2d0b3e84d6cb2","type":"file","file":"01-roadmaps/prompt-engineering/tecnicas-de-propting-engineering.md","x":-374,"y":1540,"width":1214,"height":458},
+		{"id":"4b6a62dddc04fb11","type":"file","file":"01-roadmaps/prompt-engineering/ingenieria-de-prompts.md","x":-374,"y":2140,"width":1214,"height":820},
+		{"id":"c6268c6addb81654","type":"text","text":"# Prompt Enginering","x":41,"y":-40,"width":385,"height":70},
+		{"id":"9f1b60c9e6f9e8a4","type":"file","file":"01-roadmaps/prompt-engineering/mejorando-confiabilidad-prompt-engineering.md","x":-537,"y":3120,"width":1540,"height":610}
+	],
+	"edges":[
+		{"id":"0e77cbd173ba406d","fromNode":"d2f8d1d5f4f77a92","fromSide":"bottom","toNode":"69cf002a140c0f12","toSide":"top"},
+		{"id":"15c0d8509e0d5748","fromNode":"c6268c6addb81654","fromSide":"bottom","toNode":"d2f8d1d5f4f77a92","toSide":"top"},
+		{"id":"7e6aad0b7a6b260e","fromNode":"03f2d0b3e84d6cb2","fromSide":"bottom","toNode":"4b6a62dddc04fb11","toSide":"top"},
+		{"id":"4bda4b2977c68794","fromNode":"69cf002a140c0f12","fromSide":"bottom","toNode":"03f2d0b3e84d6cb2","toSide":"top"},
+		{"id":"afd79b62473ec036","fromNode":"4b6a62dddc04fb11","fromSide":"bottom","toNode":"9f1b60c9e6f9e8a4","toSide":"top"}
+	]
+}

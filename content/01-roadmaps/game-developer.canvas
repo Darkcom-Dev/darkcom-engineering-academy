@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"9b7e6e7cd38f9ecb","type":"group","x":-1600,"y":1280,"width":2708,"height":1028,"label":"Fisicas de Juegas"},
+		{"id":"6b55997a893afae7","x":-2020,"y":3830,"width":1620,"height":490,"type":"file","file":"01-roadmaps/game-developer/shader.md"},
+		{"id":"5bf7a19d7d976130","x":80,"y":3296,"width":1408,"height":569,"type":"file","file":"01-roadmaps/game-developer/visivilidad-y-oclusion.md"},
+		{"id":"ff0fd50b34010cc4","x":-464,"y":5315,"width":1464,"height":1025,"type":"file","file":"01-roadmaps/game-developer/aprendizaje-de-ia-para-juegos.md"},
+		{"id":"22b7f9d0adad95bd","type":"file","file":"01-roadmaps/game-developer/matemáticas-para-juegos.md","x":-357,"y":329,"width":1465,"height":751},
+		{"id":"01b8dd64f4425c56","type":"file","file":"01-roadmaps/game-developer/curvas.md","x":-1760,"y":329,"width":1280,"height":751},
+		{"id":"da6094d38d193f55","type":"file","file":"01-roadmaps/game-developer/desarrollo-del-lado-del-cliente-gamedev.md","x":-357,"y":-420,"width":1465,"height":620},
+		{"id":"f74074ceb6a4eb84","type":"file","file":"01-roadmaps/game-developer/iluminación-y-sombras.md","x":-2242,"y":2480,"width":1400,"height":680},
+		{"id":"6d18dee5ed3f26fd","x":-1660,"y":4520,"width":1140,"height":574,"type":"file","file":"01-roadmaps/game-developer/apis-graficas.md"},
+		{"id":"61bc9a50f7cdcc5c","x":-360,"y":4520,"width":1000,"height":574,"type":"file","file":"01-roadmaps/game-developer/ia-para-juegos.md"},
+		{"id":"512cdabd38fd2bb5","x":80,"y":3960,"width":1348,"height":440,"type":"file","file":"01-roadmaps/game-developer/mapping-reflexion.md"},
+		{"id":"4d6c5357883fd0ed","x":-1840,"y":5315,"width":1240,"height":1025,"type":"file","file":"01-roadmaps/game-developer/renderizado-avanzado.md"},
+		{"id":"ab20cae43451a38b","type":"text","text":"# Game Developer","x":222,"y":-640,"width":280,"height":80},
+		{"id":"894c730854c3a79b","x":-1520,"y":1360,"width":1120,"height":910,"type":"file","file":"01-roadmaps/game-developer/fisicas-dinamicas.md"},
+		{"id":"e7e2bf9ede465fa6","x":-300,"y":1360,"width":1320,"height":910,"type":"file","file":"01-roadmaps/game-developer/fisica-deteccion de colisiones.md"},
+		{"id":"f0265c44adeb7b63","type":"file","file":"01-roadmaps/game-developer/lenguajes-de-programación-para-videojuegos.md","x":-755,"y":2480,"width":835,"height":680},
+		{"id":"b3417571ff754e90","type":"file","file":"01-roadmaps/game-developer/motores-de-juegos.md","x":220,"y":2480,"width":1780,"height":680},
+		{"id":"4d591ecdf3bd3be0","type":"file","file":"01-roadmaps/game-developer/color-y-animacion.md","x":-1710,"y":3296,"width":955,"height":420}
+	],
+	"edges":[
+		{"id":"62f666681e25a636","fromNode":"ab20cae43451a38b","fromSide":"bottom","toNode":"da6094d38d193f55","toSide":"top"},
+		{"id":"b87204f27be2a118","fromNode":"da6094d38d193f55","fromSide":"bottom","toNode":"22b7f9d0adad95bd","toSide":"top"},
+		{"id":"0d65060ac3ea48ab","fromNode":"22b7f9d0adad95bd","fromSide":"left","toNode":"01b8dd64f4425c56","toSide":"right"},
+		{"id":"f7228e456c1aa7ae","fromNode":"b3417571ff754e90","fromSide":"left","toNode":"f0265c44adeb7b63","toSide":"right"},
+		{"id":"6e654b85ccc0b7c3","fromNode":"4d591ecdf3bd3be0","fromSide":"bottom","toNode":"6b55997a893afae7","toSide":"top"},
+		{"id":"a5d1625fb194f7e1","fromNode":"f74074ceb6a4eb84","fromSide":"bottom","toNode":"4d591ecdf3bd3be0","toSide":"top"},
+		{"id":"2d1d79380df0b49e","fromNode":"4d591ecdf3bd3be0","fromSide":"right","toNode":"5bf7a19d7d976130","toSide":"left"},
+		{"id":"29f1575c51330c28","fromNode":"4d591ecdf3bd3be0","fromSide":"right","toNode":"512cdabd38fd2bb5","toSide":"left"},
+		{"id":"bc8d5e110bc13e96","fromNode":"22b7f9d0adad95bd","fromSide":"bottom","toNode":"9b7e6e7cd38f9ecb","toSide":"top"},
+		{"id":"52851cfe179e9a67","fromNode":"9b7e6e7cd38f9ecb","fromSide":"bottom","toNode":"b3417571ff754e90","toSide":"top"},
+		{"id":"feb68d579a9ec6cc","fromNode":"f0265c44adeb7b63","fromSide":"left","toNode":"f74074ceb6a4eb84","toSide":"right"},
+		{"id":"59fd6bb30bb22d50","fromNode":"6b55997a893afae7","fromSide":"bottom","toNode":"6d18dee5ed3f26fd","toSide":"top"},
+		{"id":"ac2b90f834bb81c7","fromNode":"6d18dee5ed3f26fd","fromSide":"right","toNode":"61bc9a50f7cdcc5c","toSide":"left"},
+		{"id":"79f7ee8893195cb6","fromNode":"61bc9a50f7cdcc5c","fromSide":"bottom","toNode":"ff0fd50b34010cc4","toSide":"top"},
+		{"id":"36aad33ce768c79c","fromNode":"6d18dee5ed3f26fd","fromSide":"bottom","toNode":"4d6c5357883fd0ed","toSide":"top"}
+	]
+}

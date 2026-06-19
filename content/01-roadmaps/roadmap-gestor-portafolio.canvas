@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"b2ad2b000570445b","type":"file","file":"01-roadmaps/gestor-portafolio/nivel-3-construccion-de-portafolio.md","x":-1040,"y":-560,"width":1330,"height":1360},
+		{"id":"ccece3abc602621b","type":"file","file":"01-roadmaps/gestor-portafolio/nivel-4-riesgo-y-etica.md","x":-940,"y":900,"width":1230,"height":780},
+		{"id":"4c3f01a8ae21ab74","type":"file","file":"01-roadmaps/gestor-portafolio/nivel-5-especializacion-ia.md","x":-720,"y":1760,"width":920,"height":1540},
+		{"id":"ref-5-1","type":"file","file":"01-roadmaps/gestor-portafolio/propuestas_automatizacion_ia.md","x":555,"y":1970,"width":883,"height":1120},
+		{"id":"ref-4-1","type":"file","file":"01-roadmaps/gestor-portafolio/fiscalidad-internacional-colombia.md","x":555,"y":900,"width":1765,"height":780},
+		{"id":"ref-3-1","type":"file","file":"01-roadmaps/gestor-portafolio/resumen-reglamento-fic-potencial-usa.md","x":555,"y":-560,"width":1165,"height":1360},
+		{"id":"a651c3071c4568bb","type":"file","file":"01-roadmaps/gestor-portafolio/nivel-1-cimientos.md","x":-1000,"y":-2360,"width":1290,"height":720},
+		{"id":"ref-2-1","type":"file","file":"01-roadmaps/gestor-portafolio/eficiencia-indicadores-tecnicos.md","x":555,"y":-1520,"width":1165,"height":760},
+		{"id":"ref-1-1","type":"file","file":"03_Recursos/finanzas/portafolio.md","x":555,"y":-2360,"width":1165,"height":720},
+		{"id":"title-01","type":"text","text":"# 🚀 Roadmap: Gestor de Portafolios Financieros\nGuía de aprendizaje desde los fundamentos hasta la gestión avanzada con IA.","x":-555,"y":-2800,"width":400,"height":200,"color":"1"},
+		{"id":"7d51233c4cb5d367","type":"file","file":"01-roadmaps/gestor-portafolio/nivel-2-analisis-y-valoración.md","x":-905,"y":-1540,"width":1100,"height":800}
+	],
+	"edges":[
+		{"id":"edge-01","fromNode":"title-01","fromSide":"bottom","toNode":"a651c3071c4568bb","toSide":"top"},
+		{"id":"edge-02","fromNode":"a651c3071c4568bb","fromSide":"right","toNode":"ref-1-1","toSide":"left"},
+		{"id":"edge-03","fromNode":"a651c3071c4568bb","fromSide":"bottom","toNode":"7d51233c4cb5d367","toSide":"top"},
+		{"id":"edge-04","fromNode":"7d51233c4cb5d367","fromSide":"right","toNode":"ref-2-1","toSide":"left"},
+		{"id":"edge-05","fromNode":"7d51233c4cb5d367","fromSide":"bottom","toNode":"b2ad2b000570445b","toSide":"top"},
+		{"id":"edge-06","fromNode":"b2ad2b000570445b","fromSide":"right","toNode":"ref-3-1","toSide":"left"},
+		{"id":"edge-07","fromNode":"b2ad2b000570445b","fromSide":"bottom","toNode":"ccece3abc602621b","toSide":"top"},
+		{"id":"edge-08","fromNode":"ccece3abc602621b","fromSide":"right","toNode":"ref-4-1","toSide":"left"},
+		{"id":"edge-09","fromNode":"ccece3abc602621b","fromSide":"bottom","toNode":"4c3f01a8ae21ab74","toSide":"top"},
+		{"id":"edge-10","fromNode":"4c3f01a8ae21ab74","fromSide":"right","toNode":"ref-5-1","toSide":"left"}
+	]
+}

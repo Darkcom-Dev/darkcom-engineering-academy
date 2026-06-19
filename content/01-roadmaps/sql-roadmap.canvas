@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"31bd953b7bdce357","type":"file","file":"01-roadmaps/sql-roadmap/aprender-las-bases-sql.md","x":-800,"y":-160,"width":1880,"height":580},
+		{"id":"c2a4bd157eb6a24b","type":"file","file":"01-roadmaps/sql-roadmap/sintaxis-basica-sql.md","x":-800,"y":528,"width":1880,"height":512},
+		{"id":"8d1f8cd5f4732cfa","type":"file","file":"01-roadmaps/sql-roadmap/lenguaje-de-definicion-de-datos.md","x":-800,"y":1200,"width":1880,"height":514},
+		{"id":"eb24607666eba7b4","type":"file","file":"01-roadmaps/sql-roadmap/lenguaje-de-manipulacion-de-datos-sql.md","x":-640,"y":1920,"width":1560,"height":640},
+		{"id":"8418521a7733c022","type":"file","file":"01-roadmaps/sql-roadmap/consultas-de-agregacion-sql.md","x":-500,"y":2800,"width":1280,"height":560},
+		{"id":"94c8dc141ac413b8","type":"file","file":"01-roadmaps/sql-roadmap/restricciones-de-datos-sql.md","x":-950,"y":3600,"width":2180,"height":680},
+		{"id":"1c6ada36a625f892","type":"file","file":"01-roadmaps/sql-roadmap/join-queries-sql.md","x":-820,"y":4400,"width":1900,"height":940},
+		{"id":"acdfadc7df035ab8","type":"file","file":"01-roadmaps/sql-roadmap/subqueries-sql.md","x":-1360,"y":5600,"width":2980,"height":654},
+		{"id":"8887ece0437cfc63","type":"file","file":"01-roadmaps/sql-roadmap/funciones-avanzadas-sql.md","x":-1360,"y":6560,"width":2980,"height":799},
+		{"id":"b985799bdedd4e37","type":"file","file":"01-roadmaps/sql-roadmap/views-sql.md","x":-950,"y":7560,"width":2160,"height":774},
+		{"id":"56bb654ff1c3afc3","type":"file","file":"01-roadmaps/sql-roadmap/stored-procedures-and-functions-sql.md","x":-950,"y":11320,"width":2160,"height":640},
+		{"id":"c1ab42eda91d4efa","x":-1025,"y":12080,"width":2310,"height":960,"type":"file","file":"01-roadmaps/sql-roadmap/optimizacion-de-desempeño-sql.md"},
+		{"id":"c53e354aeb354b4c","x":-735,"y":13280,"width":1730,"height":840,"type":"file","file":"01-roadmaps/sql-roadmap/sql-avanzado.md"},
+		{"id":"2616e8e39c5fdf3f","type":"file","file":"01-roadmaps/sql-roadmap/integridad-y-seguridad-de-los-datos-sql.md","x":-1290,"y":10560,"width":2840,"height":600},
+		{"id":"8917c5194deed00f","type":"file","file":"01-roadmaps/sql-roadmap/transacciones-sql.md","x":-1182,"y":9400,"width":2625,"height":960},
+		{"id":"f5d1da07f9299941","type":"file","file":"01-roadmaps/sql-roadmap/indices-sql.md","x":-664,"y":8520,"width":1590,"height":684},
+		{"id":"d10f0dd5c495a24b","type":"text","text":"# SQL Roadmap","x":15,"y":-320,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"9042c4c012e8d5b9","fromNode":"d10f0dd5c495a24b","fromSide":"bottom","toNode":"31bd953b7bdce357","toSide":"top"},
+		{"id":"bbb0308cdca10f2e","fromNode":"31bd953b7bdce357","fromSide":"bottom","toNode":"c2a4bd157eb6a24b","toSide":"top"},
+		{"id":"b0408335c6a27091","fromNode":"c2a4bd157eb6a24b","fromSide":"bottom","toNode":"8d1f8cd5f4732cfa","toSide":"top"},
+		{"id":"bedf79448ed7cab2","fromNode":"8d1f8cd5f4732cfa","fromSide":"bottom","toNode":"eb24607666eba7b4","toSide":"top"},
+		{"id":"181b8567d354aa46","fromNode":"eb24607666eba7b4","fromSide":"bottom","toNode":"8418521a7733c022","toSide":"top"},
+		{"id":"cfc0a76d61dc6565","fromNode":"8418521a7733c022","fromSide":"bottom","toNode":"94c8dc141ac413b8","toSide":"top"},
+		{"id":"b8cee7cb79563755","fromNode":"94c8dc141ac413b8","fromSide":"bottom","toNode":"1c6ada36a625f892","toSide":"top"},
+		{"id":"af26014c69457eca","fromNode":"1c6ada36a625f892","fromSide":"bottom","toNode":"acdfadc7df035ab8","toSide":"top"},
+		{"id":"fb99a722b1a0d1b1","fromNode":"acdfadc7df035ab8","fromSide":"bottom","toNode":"8887ece0437cfc63","toSide":"top"},
+		{"id":"d41e3c0e4d836123","fromNode":"b985799bdedd4e37","fromSide":"bottom","toNode":"f5d1da07f9299941","toSide":"top"},
+		{"id":"fe7ace2a0f112b47","fromNode":"f5d1da07f9299941","fromSide":"bottom","toNode":"8917c5194deed00f","toSide":"top"},
+		{"id":"5a97a796127d99ec","fromNode":"8917c5194deed00f","fromSide":"bottom","toNode":"2616e8e39c5fdf3f","toSide":"top"},
+		{"id":"235968e91d135029","fromNode":"2616e8e39c5fdf3f","fromSide":"bottom","toNode":"56bb654ff1c3afc3","toSide":"top"},
+		{"id":"5abee758fb35078e","fromNode":"56bb654ff1c3afc3","fromSide":"bottom","toNode":"c1ab42eda91d4efa","toSide":"top"},
+		{"id":"8bd897640b0bdd80","fromNode":"c1ab42eda91d4efa","fromSide":"bottom","toNode":"c53e354aeb354b4c","toSide":"top"},
+		{"id":"17faf363a4750dc0","fromNode":"8887ece0437cfc63","fromSide":"bottom","toNode":"b985799bdedd4e37","toSide":"top"}
+	]
+}

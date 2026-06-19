@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enredo DANE</title>
+    <link rel="stylesheet" href="../../static/style.css">
+<link rel="shortcut icon" href="../../static/favIcon.svg" type="image/x-icon">
+</head>
+<body>
+    <h1>Enredo en el DANE</h1>
+    <p>
+        Supongamos que, en algún momento de la historia, el Departamento Administrativo Nacional de Estadística (DANE) mantenía el registro diario de la cantidad promedio de nacimientos desde el inicio del año hasta cada fecha.
+    </p>
+    <p>
+Aunque a primera vista parece una buena manera de almacenar la información, cada que se necesitaba saber la cantidad exacta de nacimientos en un día especifico, algún desafortunado empleado tenía que ponerse a hacer cuentas para conocerla.
+</p>
+    <p>
+        ¿Le ayudarías al DANE haciendo un programa para que, dados esos valores diarios de los promedios se muestre la cantidad diaria de nacimientos?
+    </p>
+    <p>
+        Así por ejemplo si se tiene que la cantidad promedio de nacimientos para los cinco primeros días del año fue: 10, 12, 12, 13, y 12.6 fue porque la cantidad diaria de nacimientos para esas fechas fue de 10, 14, 12, 16 y 11.
+    </p>
+
+    <h3>Entrada</h3>
+    <p>
+        La entrada comienza con una línea que contiene un valor entero N que corresponde a la cantidad de días de los que se tienen registros (siempre se empieza el primero de enero y no serán más de 365). Luego siguen N líneas con cada uno de los promedios diarios.
+    </p>
+    <p>
+        Se garantiza que dichos valores son tales que la cantidad diaria de nacimientos son valores enteros.
+    </p>
+<h3>Salida</h3>
+
+    <p>
+        La salida contiene N líneas con los valores enteros positivos que corresponden a la cantidad diaria de nacimientos.
+    </p>
+    <table>
+        <tr>
+            <th>Ejemplo de entrada</th>
+            <th>Ejemplo de salida</th>
+        </tr>
+        <tr>
+            <td>6</td><td>20</td>
+        </tr>
+        <tr>
+            <td>20.0</td><td>23</td>
+        </tr>
+        <tr>
+            <td>21.5</td><td>20</td>
+        </tr>
+        <tr>
+            <td>21.0</td><td>24</td>
+        </tr>
+        <tr>
+            <td>21.75</td><td>25</td>
+        </tr>
+        <tr>
+            <td>22.4</td><td>23</td>
+        </tr>
+        <tr>
+            <td>22.5</td><td>  </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"c3d4e5f6-a7b8-9012-cdef-123456789012","type":"file","file":"01-roadmaps/desarrollo-con-ia/modelos-mentales-ia.md","x":360,"y":-120,"width":600,"height":360},
+		{"id":"a1b2c3d4-e5f6-7890-abcd-ef1234567890","type":"file","file":"01-roadmaps/desarrollo-con-ia/indice-desarrollo-ia.md","x":-60,"y":-1360,"width":1000,"height":880},
+		{"id":"c9d0e1f2-a3b4-5678-cdef-789012345678","type":"file","file":"01-roadmaps/desarrollo-con-ia/biblioteca-200-prompts-programacion.md","x":-230,"y":1440,"width":810,"height":340},
+		{"id":"d4e5f6a7-b8c9-0123-defa-234567890123","type":"file","file":"01-roadmaps/desarrollo-con-ia/trucos-productividad-ia.md","x":1320,"y":-120,"width":640,"height":360},
+		{"id":"b2c3d4e5-f6a7-8901-bcde-f12345678901","type":"file","file":"01-roadmaps/desarrollo-con-ia/indice-sesiones-curso-2025.md","x":-510,"y":-120,"width":560,"height":360},
+		{"id":"e5f6a7b8-c9d0-1234-efab-345678901234","type":"file","file":"01-roadmaps/desarrollo-con-ia/sesion-01-aprendizaje-notebooklm-prompts.md","x":-1480,"y":600,"width":580,"height":320},
+		{"id":"f6a7b8c9-d0e1-2345-fabc-456789012345","type":"file","file":"01-roadmaps/desarrollo-con-ia/sesion-02-arquitecto-orquestacion-agentes.md","x":-600,"y":600,"width":560,"height":320},
+		{"id":"a7b8c9d0-e1f2-3456-abcd-567890123456","type":"file","file":"01-roadmaps/desarrollo-con-ia/sesion-03-automatizacion-n8n-workflows.md","x":220,"y":600,"width":620,"height":320},
+		{"id":"b8c9d0e1-f2a3-4567-bcde-678901234567","type":"file","file":"01-roadmaps/desarrollo-con-ia/conceptos-avanzados-prompting.md","x":1040,"y":600,"width":600,"height":320}
+	],
+	"edges":[
+		{"id":"d0e1f2a3-b4c5-6789-defa-890123456789","fromNode":"a1b2c3d4-e5f6-7890-abcd-ef1234567890","fromSide":"bottom","toNode":"b2c3d4e5-f6a7-8901-bcde-f12345678901","toSide":"top","label":"📂 sesiones"},
+		{"id":"e1f2a3b4-c5d6-7890-efab-901234567890","fromNode":"a1b2c3d4-e5f6-7890-abcd-ef1234567890","fromSide":"bottom","toNode":"c3d4e5f6-a7b8-9012-cdef-123456789012","toSide":"top","label":"🧠 modelos mentales"},
+		{"id":"f2a3b4c5-d6e7-8901-fabc-012345678901","fromNode":"a1b2c3d4-e5f6-7890-abcd-ef1234567890","fromSide":"bottom","toNode":"d4e5f6a7-b8c9-0123-defa-234567890123","toSide":"top","label":"⚡ productividad"},
+		{"id":"a3b4c5d6-e7f8-9012-abcd-123456789012","fromNode":"b2c3d4e5-f6a7-8901-bcde-f12345678901","fromSide":"bottom","toNode":"e5f6a7b8-c9d0-1234-efab-345678901234","toSide":"top","label":"día 1"},
+		{"id":"b4c5d6e7-f8a9-0123-bcde-234567890123","fromNode":"b2c3d4e5-f6a7-8901-bcde-f12345678901","fromSide":"bottom","toNode":"f6a7b8c9-d0e1-2345-fabc-456789012345","toSide":"top","label":"día 2"},
+		{"id":"c5d6e7f8-a9b0-1234-cdef-345678901234","fromNode":"b2c3d4e5-f6a7-8901-bcde-f12345678901","fromSide":"bottom","toNode":"a7b8c9d0-e1f2-3456-abcd-567890123456","toSide":"top","label":"día 3"},
+		{"id":"d6e7f8a9-b0c1-2345-defa-456789012345","fromNode":"c3d4e5f6-a7b8-9012-cdef-123456789012","fromSide":"bottom","toNode":"b8c9d0e1-f2a3-4567-bcde-678901234567","toSide":"top","label":"técnicas avanzadas"},
+		{"id":"e7f8a9b0-c1d2-3456-efab-567890123456","fromNode":"d4e5f6a7-b8c9-0123-defa-234567890123","fromSide":"left","toNode":"c3d4e5f6-a7b8-9012-cdef-123456789012","toSide":"right","label":"sinergia cognitiva"},
+		{"id":"f8a9b0c1-d2e3-4567-fabc-678901234567","fromNode":"e5f6a7b8-c9d0-1234-efab-345678901234","fromSide":"right","toNode":"f6a7b8c9-d0e1-2345-fabc-456789012345","toSide":"left","label":"siguiente"},
+		{"id":"a9b0c1d2-e3f4-5678-abcd-789012345678","fromNode":"f6a7b8c9-d0e1-2345-fabc-456789012345","fromSide":"right","toNode":"a7b8c9d0-e1f2-3456-abcd-567890123456","toSide":"left","label":"siguiente"},
+		{"id":"c1d2e3f4-a5b6-7890-cdef-901234567890","fromNode":"f6a7b8c9-d0e1-2345-fabc-456789012345","fromSide":"bottom","toNode":"c9d0e1f2-a3b4-5678-cdef-789012345678","toSide":"top","label":"referencia técnica"},
+		{"id":"d2e3f4a5-b6c7-8901-defa-012345678901","fromNode":"e5f6a7b8-c9d0-1234-efab-345678901234","fromSide":"bottom","toNode":"c9d0e1f2-a3b4-5678-cdef-789012345678","toSide":"top","label":"base de prompts"},
+		{"id":"c126c93590155841","fromNode":"b8c9d0e1-f2a3-4567-bcde-678901234567","fromSide":"bottom","toNode":"c9d0e1f2-a3b4-5678-cdef-789012345678","toSide":"top","label":"biblioteca de prompts"}
+	]
+}

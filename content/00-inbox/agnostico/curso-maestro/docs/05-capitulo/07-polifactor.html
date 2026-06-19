@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polifactor</title>
+    <link rel="stylesheet" href="../../static/style.css">
+<link rel="shortcut icon" href="../../static/favIcon.svg" type="image/x-icon">
+</head>
+<body>
+    <h1>Polifactor</h1>
+    <p>Se dice que un entero A es polifactor de los valores enteros entre $P y Q (1 ≤ P < Q ≤ A)$ si $A$ es divisible por todos los valores enteros entre $P y Q$ (incluyéndolos) pero dejando cada vez el factor correspondiente.
+</p>
+    <p>Por ejemplo, 24 es polifactor de los enteros entre 2 y 4, ya que:</p>
+    <ul>
+        <li>24 es divisible por 2 (24 / 2 = 12)</li>
+        <li>12 es divisible por 3 (12 / 3 = 4)</li>
+        <li>4 es divisible por 4 (4 / 4 = 1)</li>
+    </ul>
+    <p>De igual manera, 720 es polifactor de los enteros entre 3 y 6, ya que:</p>
+    <ul>
+        <li>720 es divisible por 3 (720 / 3 = 240)</li>
+        <li>240 es divisible por 4 (240 / 4 = 60)</li>
+        <li>60 es divisible por 5 (60 / 5 = 12)</li>
+        <li>12 es divisible por 6 (12 / 6 = 2)</li>
+    </ul>
+    <p>Mientras que 60 no es polifactor de los enteros entre 2 y 5, ya que:</p>
+    <ul>
+        <li>60 es divisible por 2 (60 / 2 = 30)</li>
+        <li>30 es divisible por 3 (30 / 3 = 10)</li>
+        <li>10 es divisible por 4 (10 / 4 = 2.5) → Falla aquí</li>
+    </ul>
+    <p>Haz un programa para que, dados una serie de valores de A, P y Q, mostrar si se tratan o no de Polifactores..</p>
+    <h2>Entrada</h2>
+    <p>La entrada comienza con una línea que contiene la cantidad C de casos (no más de 100). Por cada caso siguen tres líneas, cada una con un valor entero positivo. La primera con A, la segunda con P y la tercera con Q.</p>
+    <h2>Salida</h2>
+    <p>La salida debe contener C líneas, una por cada caso con el mensaje (sin comillas): 'A es polifactor entre P y Q' o 'A no es polifactor entre P y Q'.</p>
+    <pre>
+        **Ejemplo de entrada:**
+        [2,60,2,5,3628800,1,10]
+
+        **Ejemplo de salida:**
+        ```
+        60 no es polifactor entre 2 y 5
+        3628800 es polifactor entre 1 y 10
+        ```
+    </pre>
+</body>
+</html>

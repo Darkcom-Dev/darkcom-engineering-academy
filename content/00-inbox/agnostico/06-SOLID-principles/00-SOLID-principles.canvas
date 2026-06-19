@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"node_5","type":"file","file":"00-inbox/agnostico/06-SOLID-principles/05-dependency-inversion.md","label":"5. Principio de inversión de la dependencia","x":350,"y":250,"width":300,"height":200},
+		{"id":"node_1","type":"file","file":"00-inbox/agnostico/06-SOLID-principles/01-unique-responsability.md","label":"1. Principio de responsabilidad única","x":50,"y":-600,"width":300,"height":200},
+		{"id":"node_2","type":"file","file":"00-inbox/agnostico/06-SOLID-principles/02-open-close.md","label":"2. Principio abierto-cerrado","x":1000,"y":-700,"width":300,"height":200},
+		{"id":"node_3","type":"file","file":"00-inbox/agnostico/06-SOLID-principles/03-liskov-sustitution.md","label":"3. Principio de sustitución de Liskov","x":1000,"y":-200,"width":300,"height":200},
+		{"id":"node_4","type":"file","file":"00-inbox/agnostico/06-SOLID-principles/04-interface-segregation.md","label":"4. Principio de segregación de interfaces","x":380,"y":-160,"width":300,"height":200}
+	],
+	"edges":[
+		{"id":"edge_node_1_node_2","fromNode":"node_1","fromSide":"right","toNode":"node_2","toSide":"left"},
+		{"id":"4f81254d63b2331d","fromNode":"node_2","fromSide":"bottom","toNode":"node_3","toSide":"top"},
+		{"id":"2a5f1b6d1648de88","fromNode":"node_3","fromSide":"left","toNode":"node_4","toSide":"right"},
+		{"id":"dcb6ae7f3747dcb4","fromNode":"node_4","fromSide":"bottom","toNode":"node_5","toSide":"top"}
+	]
+}

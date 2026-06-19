@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"node-fundamentos","type":"file","file":"00-inbox/js/Academia-JS/01-Fundamentos/fundamentos-sintaxis-variables.md","x":1200,"y":-380,"width":868,"height":896},
+		{"id":"node-estructuras","type":"file","file":"00-inbox/js/Academia-JS/03-Estructuras-Datos/estructuras-arrays-objetos.md","x":2584,"y":776,"width":1276,"height":516},
+		{"id":"node-css","type":"file","file":"00-inbox/js/Academia-JS/05-Layouts-CSS/CSS-tecnicas-layout.md","x":2584,"y":1420,"width":1036,"height":646},
+		{"id":"node-calculadora","type":"file","file":"00-inbox/js/Academia-JS/06-Proyectos/calculadora-climatica-psicrometrica.md","x":-320,"y":2326,"width":1096,"height":814},
+		{"id":"node-mundo3d","type":"file","file":"00-inbox/js/Academia-JS/06-Proyectos/mundo-3D-ThreeJS.md","x":2584,"y":2326,"width":776,"height":516},
+		{"id":"node-cli","type":"file","file":"00-inbox/js/Academia-JS/02-NodeJS-CLI/CLI-interaccion-terminal.md","x":-340,"y":720,"width":1020,"height":900},
+		{"id":"node-html5","type":"file","file":"00-inbox/js/Academia-JS/04-Web-Semantica/HTML5-semantico-accesibilidad.md","x":920,"y":4160,"width":1148,"height":1040},
+		{"id":"node-carrera","type":"file","file":"00-inbox/js/Academia-JS/07-Carrera/oportunidades-ecosistema-JS.md","x":1280,"y":3360,"width":788,"height":640}
+	],
+	"edges":[
+		{"id":"edge-funda-cli","fromNode":"node-fundamentos","fromSide":"bottom","toNode":"node-cli","toSide":"top","label":"Variables globales y sintaxis"},
+		{"id":"edge-funda-estruct","fromNode":"node-fundamentos","fromSide":"bottom","toNode":"node-estructuras","toSide":"top","label":"Variables como base de datos"},
+		{"id":"edge-funda-mundo","fromNode":"node-fundamentos","fromSide":"bottom","toNode":"node-mundo3d","toSide":"top","label":"Módulos y sintaxis ES6"},
+		{"id":"edge-cli-carrera","fromNode":"node-cli","fromSide":"bottom","toNode":"node-carrera","toSide":"top","label":"Automatización con Node.js"},
+		{"id":"edge-estruct-calc","fromNode":"node-estructuras","fromSide":"left","toNode":"node-calculadora","toSide":"right","label":"Objetos para resultados"},
+		{"id":"edge-estruct-mundo","fromNode":"node-estructuras","fromSide":"bottom","toNode":"node-mundo3d","toSide":"top","label":"Objetos para config 3D"},
+		{"id":"edge-html-css","fromNode":"node-html5","fromSide":"right","toNode":"node-css","toSide":"left","label":"HTML semántico + CSS"},
+		{"id":"edge-html-mundo","fromNode":"node-html5","fromSide":"right","toNode":"node-mundo3d","toSide":"left","label":"Canvas HTML para 3D"},
+		{"id":"edge-css-calc","fromNode":"node-css","fromSide":"left","toNode":"node-calculadora","toSide":"right","label":"Estilos para la interfaz"},
+		{"id":"edge-calc-mundo","fromNode":"node-calculadora","fromSide":"right","toNode":"node-mundo3d","toSide":"left","label":"Proyectos prácticos"},
+		{"id":"edge-calc-carrera","fromNode":"node-calculadora","fromSide":"bottom","toNode":"node-carrera","toSide":"top","label":"Portfolio: Data Engineering"},
+		{"id":"edge-mundo-carrera","fromNode":"node-mundo3d","fromSide":"bottom","toNode":"node-carrera","toSide":"top","label":"Portfolio: Visualización 3D"},
+		{"id":"6b16591fbf9a1d32","fromNode":"node-html5","fromSide":"top","toNode":"node-calculadora","toSide":"top","label":"Interfaz HTML del proyecto"},
+		{"id":"4b47ab43f7334394","fromNode":"node-cli","fromSide":"bottom","toNode":"node-calculadora","toSide":"top","label":"Interfaz CLI para cálculos"},
+		{"id":"b7e93dc7b9d4807d","fromNode":"node-fundamentos","fromSide":"bottom","toNode":"node-calculadora","toSide":"top","label":"Sintaxis para cálculos"}
+	]
+}

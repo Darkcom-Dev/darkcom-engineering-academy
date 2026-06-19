@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"625130c70daeac25","type":"file","file":"01-roadmaps/python-roadmap/estructuras-de-datos-y-algoritmos-python.md","x":-887,"y":-380,"width":1720,"height":920},
+		{"id":"0edcdcd2f5c59113","type":"text","text":"# Python roadmap","x":-200,"y":-1560,"width":345,"height":70},
+		{"id":"c76fc34899bd7894","type":"file","file":"01-roadmaps/python-roadmap/aprendiendo-las-bases-python.md","x":-887,"y":-1420,"width":1720,"height":900},
+		{"id":"2d1e5b7ba9ea9d73","type":"file","file":"01-roadmaps/python-roadmap/modulos-python.md","x":-887,"y":680,"width":1720,"height":800},
+		{"id":"7b47c2ae5f7de584","type":"file","file":"01-roadmaps/python-roadmap/programacion-orientada-a-objetos-python.md","x":-887,"y":1690,"width":1720,"height":950},
+		{"id":"f22f35920c407ecc","type":"file","file":"01-roadmaps/python-roadmap/manejo-de-paqueteria-python.md","x":-887,"y":2820,"width":1720,"height":580},
+		{"id":"e75f491c4e76088d","type":"file","file":"01-roadmaps/python-roadmap/paquetes-comunes-python.md","x":-887,"y":3600,"width":1720,"height":900},
+		{"id":"bc2df59d3b24dde0","type":"file","file":"01-roadmaps/python-roadmap/list-comprehensions-python.md","x":-887,"y":4630,"width":1720,"height":690},
+		{"id":"749de776f1159eb2","type":"file","file":"01-roadmaps/python-roadmap/generador-de-expresiones-python.md","x":-887,"y":5470,"width":1720,"height":670},
+		{"id":"2c1eaf8a75a52c08","type":"file","file":"01-roadmaps/python-roadmap/paradigmas-python.md","x":-887,"y":6320,"width":1720,"height":640},
+		{"id":"a52f52b75a8a43ac","type":"file","file":"01-roadmaps/python-roadmap/administradores-de-contexto-python.md","x":-887,"y":7120,"width":1720,"height":601},
+		{"id":"7284f075011f6b26","x":-887,"y":7880,"width":1720,"height":680,"type":"file","file":"01-roadmaps/python-roadmap/aprendiendo-frameworks-python.md"},
+		{"id":"c96c0c45bba8b50b","x":-887,"y":8720,"width":1720,"height":720,"type":"file","file":"01-roadmaps/python-roadmap/concurrencia-python.md"},
+		{"id":"4712d44f4e1a79aa","x":-897,"y":9760,"width":1730,"height":800,"type":"file","file":"01-roadmaps/python-roadmap/ambientes-python.md"},
+		{"id":"ce3d3e5ed1530c52","x":-902,"y":10880,"width":1735,"height":800,"type":"file","file":"01-roadmaps/python-roadmap/static-typing-python.md"},
+		{"id":"3ab465bbcb14babd","x":-904,"y":11840,"width":1737,"height":800,"type":"file","file":"01-roadmaps/python-roadmap/formateo-de-codigo-python.md"},
+		{"id":"2f66852904488d16","x":-905,"y":12800,"width":1738,"height":1120,"type":"file","file":"01-roadmaps/python-roadmap/documentacion-python.md"},
+		{"id":"7a20ae35ebdbffa4","x":-906,"y":14080,"width":1739,"height":960,"type":"file","file":"01-roadmaps/python-roadmap/manipulacion-de-archivo-python.md"},
+		{"id":"052d583760170dd0","x":-906,"y":15200,"width":1739,"height":960,"type":"file","file":"01-roadmaps/python-roadmap/testeo-python.md"}
+	],
+	"edges":[
+		{"id":"7c32e7c2c4c5869c","fromNode":"0edcdcd2f5c59113","fromSide":"bottom","toNode":"c76fc34899bd7894","toSide":"top"},
+		{"id":"289429cda04c71e5","fromNode":"625130c70daeac25","fromSide":"bottom","toNode":"2d1e5b7ba9ea9d73","toSide":"top"},
+		{"id":"ce181150cd78069a","fromNode":"c76fc34899bd7894","fromSide":"bottom","toNode":"625130c70daeac25","toSide":"top"},
+		{"id":"367878dd61aa37d8","fromNode":"2d1e5b7ba9ea9d73","fromSide":"bottom","toNode":"7b47c2ae5f7de584","toSide":"top"},
+		{"id":"658dcf2ad6f0894e","fromNode":"7b47c2ae5f7de584","fromSide":"bottom","toNode":"f22f35920c407ecc","toSide":"top"},
+		{"id":"46fdda5bd2aa6dd0","fromNode":"f22f35920c407ecc","fromSide":"bottom","toNode":"e75f491c4e76088d","toSide":"top"},
+		{"id":"c0f42fec67134bd2","fromNode":"7284f075011f6b26","fromSide":"bottom","toNode":"c96c0c45bba8b50b","toSide":"top"},
+		{"id":"8356720a2e85c7b5","fromNode":"c96c0c45bba8b50b","fromSide":"bottom","toNode":"4712d44f4e1a79aa","toSide":"top"},
+		{"id":"27a833f1bdb427ce","fromNode":"4712d44f4e1a79aa","fromSide":"bottom","toNode":"ce3d3e5ed1530c52","toSide":"top"},
+		{"id":"f9610e861a880601","fromNode":"ce3d3e5ed1530c52","fromSide":"bottom","toNode":"3ab465bbcb14babd","toSide":"top"},
+		{"id":"642f247b170cad10","fromNode":"3ab465bbcb14babd","fromSide":"bottom","toNode":"2f66852904488d16","toSide":"top"},
+		{"id":"d8a670c888cfe0ee","fromNode":"2f66852904488d16","fromSide":"bottom","toNode":"7a20ae35ebdbffa4","toSide":"top"},
+		{"id":"8583d2fc6a469f59","fromNode":"7a20ae35ebdbffa4","fromSide":"bottom","toNode":"052d583760170dd0","toSide":"top"},
+		{"id":"56a8263ff7816a35","fromNode":"e75f491c4e76088d","fromSide":"bottom","toNode":"bc2df59d3b24dde0","toSide":"top"},
+		{"id":"450525ee5dba6079","fromNode":"bc2df59d3b24dde0","fromSide":"bottom","toNode":"749de776f1159eb2","toSide":"top"},
+		{"id":"e32c5e24a4a12979","fromNode":"749de776f1159eb2","fromSide":"bottom","toNode":"2c1eaf8a75a52c08","toSide":"top"},
+		{"id":"272e3d5c1cdef84a","fromNode":"2c1eaf8a75a52c08","fromSide":"bottom","toNode":"a52f52b75a8a43ac","toSide":"top"},
+		{"id":"4ba94ac2da5a86db","fromNode":"a52f52b75a8a43ac","fromSide":"bottom","toNode":"7284f075011f6b26","toSide":"top"}
+	]
+}

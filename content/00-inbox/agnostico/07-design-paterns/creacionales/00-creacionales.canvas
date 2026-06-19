@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"node_4","type":"file","file":"00-inbox/agnostico/07-design-paterns/creacionales/prototype.md","label":"Ejemplos de uso:","x":0,"y":250,"width":320,"height":200},
+		{"id":"node_2","type":"file","file":"00-inbox/agnostico/07-design-paterns/creacionales/builder.md","label":"Builder en Python","x":600,"y":-240,"width":300,"height":200},
+		{"id":"c08bc747db0560d8","x":527,"y":372,"width":250,"height":60,"type":"text","text":"# Creacionales"},
+		{"id":"node_3","type":"file","file":"00-inbox/agnostico/07-design-paterns/creacionales/factory-method.md","label":"Método de fábrica en Python","x":960,"y":120,"width":300,"height":200},
+		{"id":"41297824096295ef","x":348,"y":703,"width":400,"height":400,"type":"file","file":"00-inbox/agnostico/07-design-paterns/creacionales/singleton.md"},
+		{"id":"6aaafacd1cc2f93a","x":348,"y":1389,"width":400,"height":400,"type":"file","file":"00-inbox/agnostico/07-design-paterns/creacionales/singleton-con-seguridad-de-hilos.md"},
+		{"id":"node_1","type":"file","file":"00-inbox/agnostico/07-design-paterns/creacionales/abstract-factory.md","label":"Ejemplo conceptual","x":120,"y":-140,"width":300,"height":200}
+	],
+	"edges":[
+		{"id":"edge_node_1_node_4","fromNode":"node_1","fromSide":"right","toNode":"c08bc747db0560d8","toSide":"left"},
+		{"id":"edge_node_2_node_4","fromNode":"node_2","fromSide":"bottom","toNode":"c08bc747db0560d8","toSide":"top"},
+		{"id":"edge_node_3_node_4","fromNode":"node_3","fromSide":"left","toNode":"c08bc747db0560d8","toSide":"bottom"},
+		{"id":"6e46443b78fa7627","fromNode":"node_4","fromSide":"right","toNode":"c08bc747db0560d8","toSide":"left"},
+		{"id":"17b243306629c8e4","fromNode":"41297824096295ef","fromSide":"top","toNode":"c08bc747db0560d8","toSide":"bottom"},
+		{"id":"53816aedd7d1e64b","fromNode":"41297824096295ef","fromSide":"bottom","toNode":"6aaafacd1cc2f93a","toSide":"top"}
+	]
+}

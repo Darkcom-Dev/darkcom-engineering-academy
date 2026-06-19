@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"f425ecc66fa1d203","type":"file","file":"01-roadmaps/5-Day-AI-Agents-Intensive-Course-with-Google/dia-1/opcional-dia-1-livestream.md","x":480,"y":140,"width":720,"height":498},
+		{"id":"03229e8b7a4443fd","type":"file","file":"01-roadmaps/5-Day-AI-Agents-Intensive-Course-with-Google/dia-2/dia-2-agent-tools-y-interoperabilidad-mcps.md","x":-960,"y":840,"width":1280,"height":641},
+		{"id":"4d72bd90c4ab7997","type":"file","file":"01-roadmaps/5-Day-AI-Agents-Intensive-Course-with-Google/dia-2/opcional-dia-2-livestream.md","x":480,"y":840,"width":720,"height":641},
+		{"id":"3eb3670a515490a0","type":"file","file":"01-roadmaps/5-Day-AI-Agents-Intensive-Course-with-Google/dia-3/dia-3-context-engineering-sesiones-y-memoria.md","x":-960,"y":1720,"width":1280,"height":547},
+		{"id":"07741b0f342e24e7","type":"file","file":"01-roadmaps/5-Day-AI-Agents-Intensive-Course-with-Google/dia-3/opcional-dia-3-livestream.md","x":480,"y":1720,"width":720,"height":547},
+		{"id":"602b4d51a81fa398","type":"file","file":"01-roadmaps/5-Day-AI-Agents-Intensive-Course-with-Google/dia-4/dia-4-agent-quality.md","x":-960,"y":2520,"width":1280,"height":696},
+		{"id":"13a4ef5737257285","type":"file","file":"01-roadmaps/5-Day-AI-Agents-Intensive-Course-with-Google/dia-4/opcional-dia-4-livestream.md","x":480,"y":2520,"width":720,"height":696},
+		{"id":"c1c4058c561cab6a","type":"file","file":"01-roadmaps/5-Day-AI-Agents-Intensive-Course-with-Google/dia-5/dia-5-prototipo-a-produccion.md","x":-960,"y":3440,"width":1280,"height":600},
+		{"id":"1167778938194f9b","type":"file","file":"01-roadmaps/5-Day-AI-Agents-Intensive-Course-with-Google/dia-5/opcional-dia-5-livestream.md","x":480,"y":3440,"width":720,"height":600},
+		{"id":"b61a32063264c74d","type":"file","file":"01-roadmaps/5-Day-AI-Agents-Intensive-Course-with-Google/dia-1/dia-1-introduccion-a-agentes.md","x":-960,"y":140,"width":1280,"height":498},
+		{"id":"a7d93122ca1b432c","type":"text","text":"# 5 Dias intensivos del curso de agentes con google.","x":-775,"y":-100,"width":910,"height":90}
+	],
+	"edges":[
+		{"id":"621fe4e70fb6f3c5","fromNode":"a7d93122ca1b432c","fromSide":"bottom","toNode":"b61a32063264c74d","toSide":"top"},
+		{"id":"a35610a4c98bdc9e","fromNode":"b61a32063264c74d","fromSide":"right","toNode":"f425ecc66fa1d203","toSide":"left"},
+		{"id":"932864879c782ade","fromNode":"b61a32063264c74d","fromSide":"bottom","toNode":"03229e8b7a4443fd","toSide":"top"},
+		{"id":"483d1a5e6c60dadc","fromNode":"03229e8b7a4443fd","fromSide":"right","toNode":"4d72bd90c4ab7997","toSide":"left"},
+		{"id":"c169d80c5693b20c","fromNode":"03229e8b7a4443fd","fromSide":"bottom","toNode":"3eb3670a515490a0","toSide":"top"},
+		{"id":"b75778b85e3005e4","fromNode":"3eb3670a515490a0","fromSide":"right","toNode":"07741b0f342e24e7","toSide":"left"},
+		{"id":"4b34a96ffafc34be","fromNode":"3eb3670a515490a0","fromSide":"bottom","toNode":"602b4d51a81fa398","toSide":"top"},
+		{"id":"15d2f89c68b805df","fromNode":"602b4d51a81fa398","fromSide":"right","toNode":"13a4ef5737257285","toSide":"left"},
+		{"id":"15b4739c6f64e465","fromNode":"602b4d51a81fa398","fromSide":"bottom","toNode":"c1c4058c561cab6a","toSide":"top"},
+		{"id":"da366ddcc47a8fad","fromNode":"c1c4058c561cab6a","fromSide":"right","toNode":"1167778938194f9b","toSide":"left"}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"readme-root","type":"file","file":"README.md","label":"📇 Supraíndice General","x":-2400,"y":-2060,"width":520,"height":820},
+		{"id":"challenges-md","type":"file","file":"00-inbox/challenges/CHALLENGES.md","x":-2780,"y":-980,"width":660,"height":360},
+		{"id":"data-analytics","type":"file","file":"00-inbox/challenges/plataforma-challenges/challenge-data-analytics.md","x":-700,"y":-1080,"width":380,"height":400},
+		{"id":"plataforma-index","type":"file","file":"00-inbox/challenges/plataforma-challenges/plataforma-de-challenges.md","label":"🏆 Plataforma Challenges","x":-1500,"y":-1650,"width":500,"height":520},
+		{"id":"retos-index","type":"file","file":"00-inbox/challenges/retos/README.md","label":"🏆 Retos y Laboratorios","x":440,"y":-3040,"width":960,"height":620},
+		{"id":"desafios","type":"file","file":"00-inbox/challenges/desafios-codigo-hola-mundo.md","x":-3245,"y":-120,"width":930,"height":600},
+		{"id":"viejo-plataforma","type":"file","file":"00-inbox/challenges/plataforma-challenges/viejo-plataforma-de-challenges.md","x":-2675,"y":880,"width":360,"height":580},
+		{"id":"backend-node","type":"file","file":"00-inbox/challenges/plataforma-challenges/challenge-backend-node.md","x":-1500,"y":-400,"width":440,"height":400},
+		{"id":"frontend-angular","type":"file","file":"00-inbox/challenges/plataforma-challenges/challenge-frontend-angular.md","x":-2090,"y":-600,"width":490,"height":400},
+		{"id":"fullstack-js","type":"file","file":"00-inbox/challenges/plataforma-challenges/challenge-fullstack-js.md","x":-880,"y":-400,"width":380,"height":400},
+		{"id":"readme-alt","type":"file","file":"00-inbox/challenges/README.md","x":-3120,"y":-1780,"width":620,"height":390},
+		{"id":"lab-hola","type":"file","file":"00-inbox/challenges/retos/lab-hola-mundo.md","x":115,"y":-2300,"width":400,"height":270},
+		{"id":"lab-expr","type":"file","file":"00-inbox/challenges/retos/lab-expresiones.md","x":630,"y":-2300,"width":410,"height":270},
+		{"id":"adventjs-index","type":"file","file":"00-inbox/challenges/midudev-javascript/challenge-de-programacion.md","label":"🧩 AdventJS (24 challenges)","x":-1600,"y":-2980,"width":500,"height":680},
+		{"id":"lab-calc","type":"file","file":"00-inbox/challenges/retos/lab-calculadora.md","x":1600,"y":-2300,"width":400,"height":270},
+		{"id":"lab-input","type":"file","file":"00-inbox/challenges/retos/lab-entrada-estandar.md","x":1140,"y":-2300,"width":355,"height":270}
+	],
+	"edges":[
+		{"id":"e-readme-plataforma","fromNode":"readme-root","fromSide":"right","toNode":"plataforma-index","toSide":"top"},
+		{"id":"e-readme-adventjs","fromNode":"readme-root","fromSide":"right","toNode":"adventjs-index","toSide":"bottom"},
+		{"id":"e-readme-retos","fromNode":"readme-root","fromSide":"right","toNode":"retos-index","toSide":"left"},
+		{"id":"e-readme-challenges","fromNode":"readme-root","fromSide":"bottom","toNode":"challenges-md","toSide":"top"},
+		{"id":"e-challenges-plataforma","fromNode":"challenges-md","fromSide":"right","toNode":"plataforma-index","toSide":"left"},
+		{"id":"e-plataforma-backend","fromNode":"plataforma-index","fromSide":"bottom","toNode":"backend-node","toSide":"top"},
+		{"id":"e-plataforma-frontend","fromNode":"plataforma-index","fromSide":"bottom","toNode":"frontend-angular","toSide":"top"},
+		{"id":"e-plataforma-fullstack","fromNode":"plataforma-index","fromSide":"bottom","toNode":"fullstack-js","toSide":"top"},
+		{"id":"e-plataforma-data","fromNode":"plataforma-index","fromSide":"bottom","toNode":"data-analytics","toSide":"top"},
+		{"id":"e-retos-labs","fromNode":"retos-index","fromSide":"bottom","toNode":"lab-hola","toSide":"top"},
+		{"id":"e-lab-hola-expr","fromNode":"lab-hola","fromSide":"right","toNode":"lab-expr","toSide":"left"},
+		{"id":"e-lab-expr-input","fromNode":"lab-expr","fromSide":"right","toNode":"lab-input","toSide":"left"},
+		{"id":"e-lab-input-calc","fromNode":"lab-input","fromSide":"right","toNode":"lab-calc","toSide":"left"}
+	]
+}
