@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: darkcom-dev
+  baseUrl: darkcom-dev.github.io/darkcom-engineering-academy
   ignorePatterns:
     - private
     - templates
